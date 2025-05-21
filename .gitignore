@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+.tox/
+dist/
+build/
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data
+data/raw/*.csv # If raw data is very large, consider ignoring it and managing separately
+data/processed/
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Reports and Figures
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.pdf
+
+# IDE-specific files (PyCharm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Operating System files
+.DS_Store
+Thumbs.db
